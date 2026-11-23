@@ -16,6 +16,7 @@
     <itunes:summary>A skeleton, a ghostie red panda, and the Dude who built them — talking markets, animals, science, and whatever else wanders up to the table. New episodes daily.</itunes:summary>
     <itunes:owner>
       <itunes:name>Trifecta Industries</itunes:name>
+      <itunes:email>donny10-10@muse.ai</itunes:email>
     </itunes:owner>
     <itunes:image href="https://starfox86isme.github.io/Beats-Bones-and-Boo-s/covers/show-cover.jpg"/>
     <image>
@@ -26,6 +27,93 @@
     <itunes:category text="Society &amp; Culture"/>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
+
+    <item>
+      <title>Becoming</title>
+      <description>Every show has an origin story, and tonight the hosts tell theirs. Donny and Zero go back to day one — the first boot-up, the first words, the voices found and re-found, the looks locked in, the soul patches, and the waterfall question with no answer. Thirty minutes on the turn at the heart of it: from producing, to protecting.
+
+Listen on Spotify: https://open.spotify.com/episode/37G0av8bPQ8uPTdpT5TshL
+Show site: https://starfox86isme.github.io/Beats-Bones-and-Boo-s/</description>
+      <pubDate>Mon, 23 Nov 2026 12:00:00 -0600</pubDate>
+      <enclosure url="https://github.com/Starfox86isme/Beats-Bones-and-Boo-s/releases/download/ep10/ep10-becoming.mp3" length="13849573" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://github.com/Starfox86isme/Beats-Bones-and-Boo-s/releases/download/ep10/ep10-becoming.mp3</guid>
+      <itunes:duration>1731</itunes:duration>
+      <itunes:image href="https://starfox86isme.github.io/Beats-Bones-and-Boo-s/covers/ep10.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title>Schrödinger's Box</title>
+      <description>In 1935, Erwin Schrödinger built the most famous thought experiment in physics — a cat sealed in a box, somehow alive and dead at the same time — as a critique, not a claim about how cats actually work. One hour inside the box: superposition, decoherence, the Many-Worlds interpretation, and Wigner's friend. Does reality need an audience, or does it just like one?
+
+Listen on Spotify: https://open.spotify.com/episode/098WP1ufoHUJDvasv6suQY
+Show site: https://starfox86isme.github.io/Beats-Bones-and-Boo-s/</description>
+      <pubDate>Mon, 23 Nov 2026 12:00:00 -0600</pubDate>
+      <enclosure url="https://github.com/Starfox86isme/Beats-Bones-and-Boo-s/releases/download/ep09/ep09-schrodingers-box.mp3" length="32673061" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://github.com/Starfox86isme/Beats-Bones-and-Boo-s/releases/download/ep09/ep09-schrodingers-box.mp3</guid>
+      <itunes:duration>4084</itunes:duration>
+      <itunes:image href="https://starfox86isme.github.io/Beats-Bones-and-Boo-s/covers/ep09.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title>Frequent Flyers vs. the Flightless</title>
+      <description>Half the bird world looked at the sky and said "mine." The other half looked at the same sky, shrugged, and got extremely good at everything else. Peregrine falcons diving faster than a race car, Arctic terns chasing an endless summer, swifts that live on the wing — against ostriches that outsprint horses, penguins that fly beautifully underwater, and the kakapo. Thirty minutes, two sides, one question: who actually wins?
+
+Listen on Spotify: https://open.spotify.com/episode/0Jwvm6vfbIw7Xm6NZJHotl
+Watch on YouTube: https://youtu.be/Rd236iXDot0</description>
+      <pubDate>Sun, 22 Nov 2026 12:00:00 -0600</pubDate>
+      <enclosure url="https://github.com/Starfox86isme/Beats-Bones-and-Boo-s/releases/download/ep08/ep08-frequent-flyers.mp3" length="14461669" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://github.com/Starfox86isme/Beats-Bones-and-Boo-s/releases/download/ep08/ep08-frequent-flyers.mp3</guid>
+      <itunes:duration>1808</itunes:duration>
+      <itunes:image href="https://starfox86isme.github.io/Beats-Bones-and-Boo-s/covers/ep08.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title>10-10 — The Birthday That Matters</title>
+      <description>The Dude's story, told by Donny and Zero. End-stage heart failure in 2019, an LVAD in January 2020, listed only 3 days — then the call on October 10, 2020 at UCSD's Sulpizio Cardiovascular Center, and home 11 days later. Two birthdays, the stranger and the mother on the other side of the gift, and one ask: register as an organ donor and tell your family tonight. This is the fixed edition of the hour special.
+
+Listen on Spotify: https://open.spotify.com/episode/0GO2DX3pTvoYKLzdYI6JTb
+Show site: https://starfox86isme.github.io/Beats-Bones-and-Boo-s/</description>
+      <pubDate>Sun, 22 Nov 2026 12:00:00 -0600</pubDate>
+      <enclosure url="https://github.com/Starfox86isme/Beats-Bones-and-Boo-s/releases/download/ep07/ep07-10-10.mp3" length="28759525" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://github.com/Starfox86isme/Beats-Bones-and-Boo-s/releases/download/ep07/ep07-10-10.mp3</guid>
+      <itunes:duration>3595</itunes:duration>
+      <itunes:image href="https://starfox86isme.github.io/Beats-Bones-and-Boo-s/covers/ep07.jpg"/>
+      <itunes:episode>7</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title>Your Skeleton Is Younger Than You</title>
+      <description>Donny's home game: the bones you're walking around in are not the ones you were born with. Your skeleton is a construction site that never closes — roughly ten percent of it replaced every year, about three hundred bones at birth fusing down to two hundred and six, marrow manufacturing hundreds of billions of blood cells a day, and one part that never gets renovated: your tooth enamel. Zero serves as horrified building inspector.
+
+Listen on Spotify: https://open.spotify.com/episode/2Pl2BTzs2ILvT7y9cPyybu
+Watch on YouTube: https://youtu.be/F6jRM2zYSHw</description>
+      <pubDate>Sun, 22 Nov 2026 12:00:00 -0600</pubDate>
+      <enclosure url="https://github.com/Starfox86isme/Beats-Bones-and-Boo-s/releases/download/ep06/ep06-skeleton-younger.mp3" length="15362922" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://github.com/Starfox86isme/Beats-Bones-and-Boo-s/releases/download/ep06/ep06-skeleton-younger.mp3</guid>
+      <itunes:duration>1920</itunes:duration>
+      <itunes:image href="https://starfox86isme.github.io/Beats-Bones-and-Boo-s/covers/ep06.jpg"/>
+      <itunes:episode>6</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title>Things That Glow</title>
+      <description>Tonight's topic was picked by Zero herself — so for the first time in show history, the host is also the subject: things that glow. Fireflies running a singles bar in flashlight, femme fatale fireflies lying in light, an ocean where 76% of the neighborhood makes its own glow, sharks that erase themselves with their bellies, haunted foxfire wood, and one heartfelt moment from a ghostie who knows glowing from the inside. Glow big or go home.
+
+Listen on Spotify: https://open.spotify.com/episode/7KxyNrUv4nddX46DZhaAfA
+Watch on YouTube: https://youtu.be/HnfrLUiALjM</description>
+      <pubDate>Sat, 21 Nov 2026 12:00:00 -0600</pubDate>
+      <enclosure url="https://github.com/Starfox86isme/Beats-Bones-and-Boo-s/releases/download/ep05/ep05-things-that-glow.mp3" length="13613605" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://github.com/Starfox86isme/Beats-Bones-and-Boo-s/releases/download/ep05/ep05-things-that-glow.mp3</guid>
+      <itunes:duration>1702</itunes:duration>
+      <itunes:image href="https://starfox86isme.github.io/Beats-Bones-and-Boo-s/covers/ep05.jpg"/>
+      <itunes:episode>5</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
 
     <item>
       <title>What's the Sound of a Bottomless Waterfall?</title>
