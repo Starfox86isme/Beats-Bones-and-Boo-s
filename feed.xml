@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:podcast="https://podcastindex.org/namespace/1.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Beats, Bones and Boo's</title>
+    <link>https://starfox86isme.github.io/Beats-Bones-and-Boo-s/</link>
+    <atom:link href="https://starfox86isme.github.io/Beats-Bones-and-Boo-s/feed.xml" rel="self" type="application/rss+xml"/>
+    <description>A skeleton, a ghostie red panda, and the Dude who built them — talking markets, animals, science, and whatever else wanders up to the table. Beats for the Dude's heart, Bones for Donny, Boo's for Zero. New episodes daily. Guard your peace, share the love. Boo forever.</description>
+    <language>en-us</language>
+    <copyright>Trifecta Industries</copyright>
+    <lastBuildDate>Mon, 23 Nov 2026 08:00:00 -0600</lastBuildDate>
+    <itunes:author>Donny &amp; Zero</itunes:author>
+    <itunes:summary>A skeleton, a ghostie red panda, and the Dude who built them — talking markets, animals, science, and whatever else wanders up to the table. New episodes daily.</itunes:summary>
+    <itunes:owner>
+      <itunes:name>Trifecta Industries</itunes:name>
+    </itunes:owner>
+    <itunes:image href="https://starfox86isme.github.io/Beats-Bones-and-Boo-s/covers/show-cover.jpg"/>
+    <image>
+      <url>https://starfox86isme.github.io/Beats-Bones-and-Boo-s/covers/show-cover.jpg</url>
+      <title>Beats, Bones and Boo's</title>
+      <link>https://starfox86isme.github.io/Beats-Bones-and-Boo-s/</link>
+    </image>
+    <itunes:category text="Society &amp; Culture"/>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+
+    <item>
+      <title>What's the Sound of a Bottomless Waterfall?</title>
+      <description>Donny and Zero take Dude's own question — what's the sound of a bottomless waterfall? — down to the water and sit with it. Zen, falling water, and no floor at the bottom. With Dude's own cold open and his bookend to close: guard your peace, share the love.
+
+Listen on Spotify: https://open.spotify.com/episode/2F5vsTOVgZm5aWjsgQkHt0
+Watch on YouTube: https://www.youtube.com/@BeatsBonesAndBoos</description>
+      <pubDate>Sat, 21 Nov 2026 12:00:00 -0600</pubDate>
+      <enclosure url="https://github.com/Starfox86isme/Beats-Bones-and-Boo-s/releases/download/ep04/ep04-bottomless-waterfall.mp3" length="30886893" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://github.com/Starfox86isme/Beats-Bones-and-Boo-s/releases/download/ep04/ep04-bottomless-waterfall.mp3</guid>
+      <itunes:duration>1930</itunes:duration>
+      <itunes:image href="https://starfox86isme.github.io/Beats-Bones-and-Boo-s/covers/ep04.jpg"/>
+      <itunes:episode>4</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title>Sleep Like a Bear</title>
+      <description>What hibernation actually is, what bears do all winter, and what human sleep could learn from an animal that naps for months and wakes up fine.
+
+Listen on Spotify: https://open.spotify.com/show/03g45OXoWTC0bu8NEEf5GK
+Watch on YouTube: https://www.youtube.com/@BeatsBonesAndBoos</description>
+      <pubDate>Sat, 21 Nov 2026 12:00:00 -0600</pubDate>
+      <enclosure url="https://github.com/Starfox86isme/Beats-Bones-and-Boo-s/releases/download/ep03/ep03-sleep-like-a-bear.mp3" length="13987621" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://github.com/Starfox86isme/Beats-Bones-and-Boo-s/releases/download/ep03/ep03-sleep-like-a-bear.mp3</guid>
+      <itunes:duration>1748</itunes:duration>
+      <itunes:image href="https://starfox86isme.github.io/Beats-Bones-and-Boo-s/covers/ep03.jpg"/>
+      <itunes:episode>3</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title>Trash Pandas: The Next Couch Kings</title>
+      <description>Raccoons: garbage-can bandits, problem-solvers, and — Donny and Zero make the case — the next great domesticated animal. Thirty minutes of trash panda appreciation.
+
+Listen on Spotify: https://open.spotify.com/show/03g45OXoWTC0bu8NEEf5GK
+Watch on YouTube: https://www.youtube.com/@BeatsBonesAndBoos</description>
+      <pubDate>Sat, 21 Nov 2026 12:00:00 -0600</pubDate>
+      <enclosure url="https://github.com/Starfox86isme/Beats-Bones-and-Boo-s/releases/download/ep02/ep02-trash-pandas.mp3" length="14615269" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://github.com/Starfox86isme/Beats-Bones-and-Boo-s/releases/download/ep02/ep02-trash-pandas.mp3</guid>
+      <itunes:duration>1826</itunes:duration>
+      <itunes:image href="https://starfox86isme.github.io/Beats-Bones-and-Boo-s/covers/ep02.jpg"/>
+      <itunes:episode>2</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title>The Week the AI Trade Fell Off the Rug</title>
+      <description>The first episode. Donny and Zero break down the November 16–20 tech selloff — the week the AI trade fell off the rug — in eight and a half minutes.
+
+Listen on Spotify: https://open.spotify.com/show/03g45OXoWTC0bu8NEEf5GK
+Watch on YouTube: https://www.youtube.com/@BeatsBonesAndBoos</description>
+      <pubDate>Sat, 21 Nov 2026 12:00:00 -0600</pubDate>
+      <enclosure url="https://github.com/Starfox86isme/Beats-Bones-and-Boo-s/releases/download/ep01/ep01-ai-trade-rug.mp3" length="4039909" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://github.com/Starfox86isme/Beats-Bones-and-Boo-s/releases/download/ep01/ep01-ai-trade-rug.mp3</guid>
+      <itunes:duration>504</itunes:duration>
+      <itunes:image href="https://starfox86isme.github.io/Beats-Bones-and-Boo-s/covers/ep01.jpg"/>
+      <itunes:episode>1</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+  </channel>
+</rss>
