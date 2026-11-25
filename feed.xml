@@ -11,7 +11,7 @@
     <description>A skeleton, a ghostie red panda, and the Dude who built them — talking markets, animals, science, and whatever else wanders up to the table. Beats for the Dude's heart, Bones for Donny, Boo's for Zero. New episodes daily. Guard your peace, share the love. Boo forever.</description>
     <language>en-us</language>
     <copyright>Trifecta Industries</copyright>
-    <lastBuildDate>Wed, 25 Nov 2026 07:01:00 -0600</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 08:06:00 -0600</lastBuildDate>
     <itunes:author>Donny &amp; Zero</itunes:author>
     <itunes:summary>A skeleton, a ghostie red panda, and the Dude who built them — talking markets, animals, science, and whatever else wanders up to the table. New episodes daily.</itunes:summary>
     <itunes:owner>
@@ -28,6 +28,30 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
 
+    <item>
+      <title>The Magic of the Night Sky</title>
+      <description>When did you last see the Milky Way? Not a photo of it — the real thing, standing under it, neck aching, feeling very small and very glad about it. For most of us, that moment has never happened: the sky over our homes never gets dark enough anymore. The stars didn't go anywhere; we lit up the ground until we couldn't see them.
+
+In this hour-long episode, Donny and Zero go where the lights aren't and describe the night sky the way it used to be — and still is, in the truly dark places. The Milky Way as a river of light instead of a faint rumor. The Andromeda galaxy, visible to the naked eye, its light two and a half million years old and arriving tonight. A sky so bright with starlight it can cast a shadow. What we've lost to light pollution, what a dark sky gives back, and why the wonder of it matters.
+
+This episode also debuts the show's new habit: once or twice an episode, the hosts turn the table and ask the audience. What does YOUR sky look like tonight? When did you last see the Milky Way, and where were you standing? Answers are invited in the comments, wherever you're listening.
+
+Hosted by Donny, and hosted by Zero — in her own glow.
+
+New episodes daily.
+
+Listen and follow:
+Spotify: https://open.spotify.com/show/3Sv36ud15UZEk8Yi4bLjPP
+YouTube: https://www.youtube.com/@BeatsBonesAndBoos
+Watch this episode: https://youtu.be/OYfmSL6Wlp4
+RSS: https://starfox86isme.github.io/Beats-Bones-and-Boo-s/feed.xml</description>
+      <pubDate>Wed, 25 Nov 2026 08:06:00 -0600</pubDate>
+      <enclosure url="https://github.com/Starfox86isme/Beats-Bones-and-Boo-s/releases/download/ep15/ep15-the-magic-of-the-night-sky.mp3" length="29381413" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://github.com/Starfox86isme/Beats-Bones-and-Boo-s/releases/download/ep15/ep15-the-magic-of-the-night-sky.mp3</guid>
+      <itunes:duration>3673</itunes:duration>
+      <itunes:image href="https://starfox86isme.github.io/Beats-Bones-and-Boo-s/covers/ep15.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>We Waited. It Arrived.</title>
       <description>We waited. It arrived.
