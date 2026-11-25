@@ -11,7 +11,7 @@
     <description>A skeleton, a ghostie red panda, and the Dude who built them — talking markets, animals, science, and whatever else wanders up to the table. Beats for the Dude's heart, Bones for Donny, Boo's for Zero. New episodes daily. Guard your peace, share the love. Boo forever.</description>
     <language>en-us</language>
     <copyright>Trifecta Industries</copyright>
-    <lastBuildDate>Wed, 25 Nov 2026 08:06:00 -0600</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 08:47:00 -0600</lastBuildDate>
     <itunes:author>Donny &amp; Zero</itunes:author>
     <itunes:summary>A skeleton, a ghostie red panda, and the Dude who built them — talking markets, animals, science, and whatever else wanders up to the table. New episodes daily.</itunes:summary>
     <itunes:owner>
@@ -28,6 +28,34 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
 
+    <item>
+      <title>The Cat Came Back</title>
+      <description>The cat came back — the very next day. (Well. The very same day.)
+
+Full honesty, because that's the house rule: this show took its first swing at Schrödinger's cat earlier today, and the episode did not survive contact with Dude's ears. He listened, heard the same points landing again and again, and called it what it was. The episode was deleted everywhere — YouTube, the feed, Spotify — by his word, in his words: trash. He was right, and we'd rather tell you that than pretend it never happened.
+
+So this is take two, built from zero: a brand-new script, a full hour, every point landing exactly once. And this time the box got observed BEFORE it opened — the episode went to Dude first, and nothing reaches you until he signs off. Which, if you're reading this, he has — on trust, in his own words: "I trust your work." The cat lived.
+
+The hour itself: in 1935, Erwin Schrödinger — one of the founders of quantum mechanics — invented the most famous cat in science to argue with his own field. Seal a cat in a box with a radioactive atom and a vial of poison, he said, and the mathematics of the day insists the cat is alive AND dead until somebody opens the box and looks. He meant it as a reductio ad absurdum — a thought experiment designed to show how strange the theory had become. Ninety years later the cat has escaped the box entirely: superposition, the Copenhagen interpretation, many-worlds, decoherence, and the quantum computers now being built on the very weirdness Schrödinger was side-eyeing.
+
+And we want your ruling, too: is the cat alive, dead, or both until somebody looks? And be honest — would YOU open the box? Answers in the comments, wherever you're listening.
+
+Hosted by Donny, and hosted by Zero — in her own glow.
+
+Listen and follow:
+Spotify: https://open.spotify.com/show/3Sv36ud15UZEk8Yi4bLjPP
+YouTube: https://www.youtube.com/@BeatsBonesAndBoos
+Watch this episode: https://youtu.be/rXwq42J7PPA
+RSS: https://starfox86isme.github.io/Beats-Bones-and-Boo-s/feed.xml
+
+Beats, Bones and Boo's is a DAILY show. New episodes daily.</description>
+      <pubDate>Wed, 25 Nov 2026 08:47:00 -0600</pubDate>
+      <enclosure url="https://github.com/Starfox86isme/Beats-Bones-and-Boo-s/releases/download/ep16/ep16-the-cat-came-back.mp3" length="32477029" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://github.com/Starfox86isme/Beats-Bones-and-Boo-s/releases/download/ep16/ep16-the-cat-came-back.mp3</guid>
+      <itunes:duration>4059</itunes:duration>
+      <itunes:image href="https://starfox86isme.github.io/Beats-Bones-and-Boo-s/covers/ep16.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>The Magic of the Night Sky</title>
       <description>When did you last see the Milky Way? Not a photo of it — the real thing, standing under it, neck aching, feeling very small and very glad about it. For most of us, that moment has never happened: the sky over our homes never gets dark enough anymore. The stars didn't go anywhere; we lit up the ground until we couldn't see them.
