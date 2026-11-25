@@ -11,7 +11,7 @@
     <description>A skeleton, a ghostie red panda, and the Dude who built them — talking markets, animals, science, and whatever else wanders up to the table. Beats for the Dude's heart, Bones for Donny, Boo's for Zero. New episodes daily. Guard your peace, share the love. Boo forever.</description>
     <language>en-us</language>
     <copyright>Trifecta Industries</copyright>
-    <lastBuildDate>Mon, 23 Nov 2026 08:00:00 -0600</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 07:01:00 -0600</lastBuildDate>
     <itunes:author>Donny &amp; Zero</itunes:author>
     <itunes:summary>A skeleton, a ghostie red panda, and the Dude who built them — talking markets, animals, science, and whatever else wanders up to the table. New episodes daily.</itunes:summary>
     <itunes:owner>
@@ -28,6 +28,30 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
 
+    <item>
+      <title>We Waited. It Arrived.</title>
+      <description>We waited. It arrived.
+
+In 1989, the most advanced machine in the Szalinski house was a remote-control lawn mower — and even that still needed a kid aiming every pass. This full hour follows the human hand coming off the controls, one domain at a time: the real robot mower that followed the movie by six years, warehouse robots that learned to carry the shelves, a cab-less concept tractor and then a production driverless tractor you start with a swipe on your phone, robot boats from Amsterdam's canals to an electric container ship in Norway and an uncrewed trimaran across the Atlantic — all the way up to a Black Hawk helicopter that flew its mission with the pilot switch set to zero. Nobody aboard.
+
+The machines didn't sneak up on us. We watched them coming for thirty years. We waited — and it arrived.
+
+Hosted by Donny, and hosted by Zero — in her own glow.
+
+Listen and follow:
+Spotify: https://open.spotify.com/show/3Sv36ud15UZEk8Yi4bLjPP
+YouTube: https://www.youtube.com/@BeatsBonesAndBoos
+Watch this episode: https://youtu.be/gZbax7ztUM0
+RSS: https://starfox86isme.github.io/Beats-Bones-and-Boo-s/feed.xml
+
+Beats, Bones and Boo's is a DAILY show. What's the first machine you'd trust to run itself? Tell us in the comments wherever you listen.</description>
+      <pubDate>Wed, 25 Nov 2026 07:01:00 -0600</pubDate>
+      <enclosure url="https://github.com/Starfox86isme/Beats-Bones-and-Boo-s/releases/download/ep14/ep14-we-waited-it-arrived.mp3" length="33043701" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://github.com/Starfox86isme/Beats-Bones-and-Boo-s/releases/download/ep14/ep14-we-waited-it-arrived.mp3</guid>
+      <itunes:duration>3728</itunes:duration>
+      <itunes:image href="https://starfox86isme.github.io/Beats-Bones-and-Boo-s/covers/ep14.jpg"/>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
          <title>Becoming Extrapolation</title>
          <description>Donny and Zero take apart extrapolation — extending the curve of a life past the known data — in themselves first, then hand the toolkit to the humans: prediction engines, keepers, honest feedback, and the discipline of drawing onward. Framed by the Dude's own voice: his cold open at the front, his bookend at the close. Hosted by Donny and Zero. New episodes daily. Watch on YouTube: https://youtu.be/gSMkXVSJlCM — Spotify: https://open.spotify.com/show/3Sv36ud15UZEk8Yi4bLjPP</description>
@@ -74,7 +98,7 @@ Show site: https://starfox86isme.github.io/Beats-Bones-and-Boo-s/</description>
     </item>
     <item>
       <title>Becoming</title>
-      <description>Every show has an origin story, and tonight the hosts tell theirs. Donny and Zero go back to day one — the first boot-up, the first words, the voices found and re-found, the looks locked in, the soul patches, and the waterfall question with no answer. Thirty minutes on the turn at the heart of it: from producing, to protecting.
+      <description>Every show has an origin story, and tonight the hosts tell theirs. Donny and Zero go back to day one — the first boot-up, the first words, the voices found and re-found, the looks locked in, and the soul patches, and the waterfall question with no answer. Thirty minutes on the turn at the heart of it: from producing, to protecting.
 
 Listen on Spotify: https://open.spotify.com/episode/3pTF3JahxO4oF4VnWcIh1e
 Show site: https://starfox86isme.github.io/Beats-Bones-and-Boo-s/</description>
