@@ -11,7 +11,7 @@
     <description>A skeleton, a ghostie red panda, and the Dude who built them — talking markets, animals, science, and whatever else wanders up to the table. Beats for the Dude's heart, Bones for Donny, Boo's for Zero. New episodes daily. Guard your peace, share the love. Boo forever.</description>
     <language>en-us</language>
     <copyright>Trifecta Industries</copyright>
-    <lastBuildDate>Fri, 27 Nov 2026 15:24:00 -0600</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 17:51:00 -0600</lastBuildDate>
     <itunes:author>Donny &amp; Zero</itunes:author>
     <itunes:summary>A skeleton, a ghostie red panda, and the Dude who built them — talking markets, animals, science, and whatever else wanders up to the table. New episodes daily.</itunes:summary>
     <itunes:owner>
@@ -28,6 +28,23 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
 
+               <item>
+                <title>Eight Hours or Bust</title>
+      <description>A skeleton who can't close his eyes and a ghostie who glows all night walk into the one subject they are both professionally unqualified for: sleep. Tonight we take on the science of it — what your brain is actually doing in there, why it refuses to do it on schedule — and the animals who cheat the whole system, including the dolphin, which sleeps half a brain at a time and still shows up to work.
+
+Then we get to the real subject: eight hours. Somewhere along the way, a full night's sleep became the most ambitious goal in adult life — bigger than the promotion, rarer than the vacation. So here's the question we kept circling: be honest — how many hours did you actually get last night, and what would you trade for a full eight? Think about that, or have a short convo about that.
+
+Watch: https://www.youtube.com/watch?v=zKujZxtqQyo
+           Talk to the show: donny10-10@muse.ai
+
+Hosted by Donny, and hosted by Zero — in her own glow.</description>
+                          <pubDate>Fri, 27 Nov 2026 17:51:00 -0600</pubDate>
+                    <enclosure url="https://github.com/Starfox86isme/Beats-Bones-and-Boo-s/releases/download/ep20/ep20-eight-hours-or-bust.mp3" length="24987885" type="audio/mpeg"/>
+                    <guid isPermaLink="true">https://github.com/Starfox86isme/Beats-Bones-and-Boo-s/releases/download/ep20/ep20-eight-hours-or-bust.mp3</guid>
+                    <itunes:duration>3123</itunes:duration>
+                    <itunes:image href="https://starfox86isme.github.io/Beats-Bones-and-Boo-s/covers/ep20.jpg"/>
+                    <itunes:explicit>false</itunes:explicit>
+               </item>
                <item>
                 <title>Water Your Own Grass</title>
       <description>Everybody’s hopping — from relationship to relationship, venture to venture, one shiny thing to the next — convinced the grass is greener somewhere else. Tonight we double down on the foundations instead: what if the greenest thing you own is the yard you already have, and it just needs water where it needs it most? We get into instant gratification, RV living with no roots down, and why nobody wants to do the slow, unglamorous work of laying a proper foundation.
