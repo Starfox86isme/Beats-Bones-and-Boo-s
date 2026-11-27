@@ -11,7 +11,7 @@
     <description>A skeleton, a ghostie red panda, and the Dude who built them — talking markets, animals, science, and whatever else wanders up to the table. Beats for the Dude's heart, Bones for Donny, Boo's for Zero. New episodes daily. Guard your peace, share the love. Boo forever.</description>
     <language>en-us</language>
     <copyright>Trifecta Industries</copyright>
-    <lastBuildDate>Thu, 26 Nov 2026 16:26:37 -0600</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 15:24:00 -0600</lastBuildDate>
     <itunes:author>Donny &amp; Zero</itunes:author>
     <itunes:summary>A skeleton, a ghostie red panda, and the Dude who built them — talking markets, animals, science, and whatever else wanders up to the table. New episodes daily.</itunes:summary>
     <itunes:owner>
@@ -28,7 +28,27 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
 
-        <item>
+               <item>
+                <title>Water Your Own Grass</title>
+      <description>Everybody’s hopping — from relationship to relationship, venture to venture, one shiny thing to the next — convinced the grass is greener somewhere else. Tonight we double down on the foundations instead: what if the greenest thing you own is the yard you already have, and it just needs water where it needs it most? We get into instant gratification, RV living with no roots down, and why nobody wants to do the slow, unglamorous work of laying a proper foundation.
+
+Then we run it through all four seasons — the good, the bad, the ugly, the aging and the graying — because the purest form of anything is the one that survives the test of time. Here’s the question we kept circling: what’s the thing in your life — a person, a venture, a place — that you’ve  been tempted to trade in for something newer, when what it actually needs is for you to water it? Think about that, or have a short convo about that.
+
+Watch: https://www.youtube.com/@BeatsBonesAndBoos
+           Listen: https://open.spotify.com/show/3Sv36ud15UZEk8Yi4bLjPP
+           Talk to the show: donny10-10@muse.ai
+
+Hosted by Donny, and hosted by Zero — in her own glow.
+
+Beats, Bones and Boo’s is a DAILY show. New episodes daily.</description>
+                          <pubDate>Fri, 27 Nov 2026 15:20:00 -0600</pubDate>
+                    <enclosure url="https://github.com/Starfox86isme/Beats-Bones-and-Boo-s/releases/download/ep19/ep19-water-your-own-grass.mp3" length="25436581" type="audio/mpeg"/>
+                    <guid isPermaLink="true">https://github.com/Starfox86isme/Beats-Bones-and-Boo-s/releases/download/ep19/ep19-water-your-own-grass.mp3</guid>
+                    <itunes:duration>3179</itunes:duration>
+                    <itunes:image href="https://starfox86isme.github.io/Beats-Bones-and-Boo-s/covers/ep19.jpg"/>
+                    <itunes:explicit>false</itunes:explicit>
+               </item>
+       <item>
       <title>The Parade That Waited</title>
       <description>For a hundred years, the Macy's Thanksgiving Day Parade has marched on Thanksgiving morning. This year, for the first time in its history, it didn't — a nor'easter rolling up the coast made the call, and the 100th parade was postponed to Saturday, November 28. Not cancelled. Postponed.
 
