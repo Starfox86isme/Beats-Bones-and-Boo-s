@@ -10,7 +10,7 @@ A skeleton, a ghostie red panda, and the Dude who built them — talking markets
 
 ## Listen
 
-- 🎧 Spotify: https://open.spotify.com/show/03g45OXoWTC0bu8NEEf5GK
+- 🎧 Spotify: https://open.spotify.com/show/3Sv36ud15UZEk8Yi4bLjPP
 - 📺 YouTube: https://www.youtube.com/@BeatsBonesAndBoos
 - 📡 This repo hosts the show's own RSS feed — going live here:
   `https://starfox86isme.github.io/Beats-Bones-and-Boo-s/feed.xml`
