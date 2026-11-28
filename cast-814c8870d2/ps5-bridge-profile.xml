@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PS5 BRIDGE - Tasker Profile: "Bridge Poll And Cast"
+  ====================================================
+  What this file is: A Tasker export for Dude's Android phone (SM-S156V).
+  It polls a JSON "cast request" channel every 2 minutes and, on a new
+  request with status == "pending", opens the requested video in the
+  YouTube app and drives YouTube's own cast UI to send it to the PS5.
+  (The PS5 is NOT a Chromecast receiver; YouTube-app-to-PS5-YouTube-app
+  casting is the route.)
+
+  NEEDS-ON-DEVICE-TUNING: The AutoInput and AutoTools steps in the main
+  task are labeled Anchor placeholders ONLY (see anchors PARSE-1, AI-1,
+  AI-2, AI-3). Their real plugin actions CANNOT be reliably hand-authored
+  as serialized XML and MUST be built on-device in Tasker before this
+  profile will actually parse JSON or tap the cast UI.
+
+  NEEDS-ON-DEVICE-TUNING: The optional second profile with a Display-On
+  (screen-on) event context running the same task is NOT included in
+  this file, because its event encoding could not be authored with
+  confidence. Add it on-device if wanted: Profile -> Event -> Display
+  -> Display On -> task "Bridge Poll And Cast".
+
+  CONFIG: %BridgeURL below defaults to the literal https://starfox86isme.github.io/Beats-Bones-and-Boo-s/cast-814c8870d2/request.json
+  and MUST be replaced with Lane 1's real cast-request channel URL
+  before this profile is used.
+-->
+<TaskerData sr="" dvi="1" tv="6.2.22">
+	<Profile sr="prof0" ve="2">
+		<cdate>1732857600000</cdate>
+		<edate>1732857600000</edate>
+		<id>1001</id>
+		<mid0>1002</mid0>
+		<nme>Bridge Poll Every 2 Minutes</nme>
+		<!-- Time context: repeat every 2 minutes, all day (00:00-23:59). -->
+		<Time sr="con0" ve="2">
+			<fh>0</fh>
+			<fm>0</fm>
+			<rep>2</rep>
+			<th>23</th>
+			<tm>59</tm>
+		</Time>
+	</Profile>
+	<Task sr="task0">
+		<cdate>1732857600000</cdate>
+		<edate>1732857600000</edate>
+		<id>1002</id>
+		<nme>Bridge Poll And Cast</nme>
+		<pri>100</pri>
+		<!-- Step 1a: Default %BridgeURL, only if unset. -->
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<Str sr="arg0" ve="3">%BridgeURL</Str>
+			<Int sr="arg1" val="12" />
+			<Str sr="arg2" ve="3" />
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BridgeURL</Str>
+			<Str sr="arg1" ve="3">https://starfox86isme.github.io/Beats-Bones-and-Boo-s/cast-814c8870d2/request.json</Str>
+			<Int sr="arg2" val="0" />
+			<Int sr="arg3" val="0" />
+			<Int sr="arg4" val="0" />
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>38</code>
+		</Action>
+		<!-- Step 1b: Default %PS5Name, only if unset. Substring matched against the cast device list. -->
+		<Action sr="act3" ve="7">
+			<code>37</code>
+			<Str sr="arg0" ve="3">%PS5Name</Str>
+			<Int sr="arg1" val="12" />
+			<Str sr="arg2" ve="3" />
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%PS5Name</Str>
+			<Str sr="arg1" ve="3">PS5</Str>
+			<Int sr="arg2" val="0" />
+			<Int sr="arg3" val="0" />
+			<Int sr="arg4" val="0" />
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>38</code>
+		</Action>
+		<!-- Step 2: HTTP Request GET %BridgeURL, output to %http_data. -->
+		<Action sr="act6" ve="7">
+			<code>339</code>
+			<Str sr="arg0" ve="3">%BridgeURL</Str>
+			<Int sr="arg1" val="0" />
+			<Str sr="arg2" ve="3" />
+			<Str sr="arg3" ve="3" />
+			<Int sr="arg4" val="30" />
+			<Str sr="arg5" ve="3" />
+			<Str sr="arg6" ve="3" />
+			<Int sr="arg7" val="0" />
+			<Int sr="arg8" val="0" />
+			<Str sr="arg9" ve="3">http_data</Str>
+		</Action>
+		<!-- Step 2 (cont.): If the request errored / %http_data is unset, stop. -->
+		<Action sr="act7" ve="7">
+			<code>37</code>
+			<Str sr="arg0" ve="3">%http_data</Str>
+			<Int sr="arg1" val="12" />
+			<Str sr="arg2" ve="3" />
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0" />
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>38</code>
+		</Action>
+		<!--
+		  Step 3: PARSE-1 placeholder. On-device, replace/augment this Anchor
+		  with an AutoTools JSON Read action on %http_data with fields:
+		  request_id, video_id, video_url, title, status
+		  (output variables: %request_id, %video_id, %video_url, %title, %status).
+		  NEEDS-ON-DEVICE-TUNING: AutoTools is a plugin; its action is not
+		  hand-authored here.
+		-->
+		<Action sr="act10" ve="7">
+			<code>300</code>
+			<Str sr="arg0" ve="3">PARSE-1: AutoTools JSON Read here</Str>
+		</Action>
+		<!-- Step 4a: Only act when %status is "pending"; otherwise stop. -->
+		<Action sr="act11" ve="7">
+			<code>37</code>
+			<Str sr="arg0" ve="3">%status</Str>
+			<Int sr="arg1" val="1" />
+			<Str sr="arg2" ve="3">pending</Str>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0" />
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>38</code>
+		</Action>
+		<!-- Step 4b: Dedupe. If this request_id was already handled, stop. -->
+		<Action sr="act14" ve="7">
+			<code>37</code>
+			<Str sr="arg0" ve="3">%request_id</Str>
+			<Int sr="arg1" val="0" />
+			<Str sr="arg2" ve="3">%BRIDGELASTID</Str>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0" />
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>38</code>
+		</Action>
+		<!--
+		  Step 5: Mark this request handled BEFORE attempting the cast.
+		  %BRIDGELASTID is a persistent global (capitalised) variable.
+		  Setting it first prevents infinite retry loops; the failure
+		  branch below notifies instead of retrying.
+		-->
+		<Action sr="act17" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BRIDGELASTID</Str>
+			<Str sr="arg1" ve="3">%request_id</Str>
+			<Int sr="arg2" val="0" />
+			<Int sr="arg3" val="0" />
+			<Int sr="arg4" val="0" />
+		</Action>
+		<!-- Step 6: Open the video in the YouTube app via a VIEW intent on %video_url, package com.google.android.youtube, target Activity. -->
+		<Action sr="act18" ve="7">
+			<code>877</code>
+			<Str sr="arg0" ve="3">android.intent.action.VIEW</Str>
+			<Int sr="arg1" val="0" />
+			<Str sr="arg2" ve="3" />
+			<Str sr="arg3" ve="3">%video_url</Str>
+			<Str sr="arg4" ve="3" />
+			<Str sr="arg5" ve="3" />
+			<Str sr="arg6" ve="3" />
+			<Str sr="arg7" ve="3">com.google.android.youtube</Str>
+			<Str sr="arg8" ve="3" />
+			<Int sr="arg9" val="2" />
+		</Action>
+		<!-- Step 7: Wait 4 seconds for the video page to load. -->
+		<Action sr="act19" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0" />
+			<Int sr="arg1" val="4" />
+			<Int sr="arg2" val="0" />
+			<Int sr="arg3" val="0" />
+			<Int sr="arg4" val="0" />
+		</Action>
+		<!--
+		  Step 8: Cast taps are AutoInput plugin actions. Their serialized
+		  plugin bundles cannot be reliably hand-authored, so they are
+		  represented by the labeled Anchors AI-1, AI-2 and AI-3 below.
+		  Build the real AutoInput actions at these points on-device.
+		  NEEDS-ON-DEVICE-TUNING.
+		-->
+		<Action sr="act20" ve="7">
+			<code>300</code>
+			<Str sr="arg0" ve="3">AI-1: AutoInput tap Cast button (query text/desc contains 'Cast')</Str>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0" />
+			<Int sr="arg1" val="2" />
+			<Int sr="arg2" val="0" />
+			<Int sr="arg3" val="0" />
+			<Int sr="arg4" val="0" />
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>300</code>
+			<Str sr="arg0" ve="3">AI-2: AutoInput tap device entry whose text contains %PS5Name</Str>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0" />
+			<Int sr="arg1" val="3" />
+			<Int sr="arg2" val="0" />
+			<Int sr="arg3" val="0" />
+			<Int sr="arg4" val="0" />
+		</Action>
+		<Action sr="act24" ve="7">
+			<code>300</code>
+			<Str sr="arg0" ve="3">AI-3: AutoInput UI Query verify casting state (look for 'Casting to' or Disconnect)</Str>
+		</Action>
+		<!--
+		  Step 9: Fallback branch. %CASTOK is set by the on-device AI-3
+		  verification step when casting is confirmed. That condition
+		  therefore depends on an on-device step: if %CASTOK is not set,
+		  the cast tap is assumed missed - notify and stop (no retry;
+		  %BRIDGELASTID was already set above). If %CASTOK is set, fall
+		  through to the success Notify.
+		-->
+		<Action sr="act25" ve="7">
+			<code>37</code>
+			<Str sr="arg0" ve="3">%CASTOK</Str>
+			<Int sr="arg1" val="12" />
+			<Str sr="arg2" ve="3" />
+		</Action>
+		<Action sr="act26" ve="7">
+			<code>171</code>
+			<Str sr="arg0" ve="3">Bridge: cast tap missed</Str>
+			<Str sr="arg1" ve="3">Video open in YouTube app — tap Cast to send to PS5</Str>
+			<Str sr="arg2" ve="3" />
+			<Int sr="arg3" val="0" />
+			<Int sr="arg4" val="0" />
+			<Int sr="arg5" val="3" />
+			<Int sr="arg6" val="0" />
+			<Int sr="arg7" val="0" />
+		</Action>
+		<Action sr="act27" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0" />
+		</Action>
+		<Action sr="act28" ve="7">
+			<code>38</code>
+		</Action>
+		<!-- Success path (optional notify): casting confirmed. -->
+		<Action sr="act29" ve="7">
+			<code>171</code>
+			<Str sr="arg0" ve="3">Bridge: casting</Str>
+			<Str sr="arg1" ve="3">%title → PS5</Str>
+			<Str sr="arg2" ve="3" />
+			<Int sr="arg3" val="0" />
+			<Int sr="arg4" val="0" />
+			<Int sr="arg5" val="3" />
+			<Int sr="arg6" val="0" />
+			<Int sr="arg7" val="0" />
+		</Action>
+	</Task>
+</TaskerData>
